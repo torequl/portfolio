@@ -157,3 +157,32 @@ hr{
     font-size: 16px;
     line-height: 30px;
 }
+
+/* Resume Section */
+
+.resume{
+    padding: 30px 0;
+}
+.resume h2{
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+.resume-content{
+    display: flex;
+    gap: 20px;
+}
+.resume-details{
+    padding: 20px;
+}
+.resume-details h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.resume-details h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.resume-details span{}
+.resume-details p{}
