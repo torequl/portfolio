@@ -23,7 +23,7 @@ section{
 header{
     max-width: 1480px;
     margin: 0 auto;
-    background-image: url("./images/developer.png"), url("/images/header_bg.png");
+    background-image: url("/images/developer.png"), url("/images/header_bg.png");
     background-color: #fff5ee;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -173,7 +173,8 @@ hr{
     gap: 20px;
 }
 .resume-details{
-    padding: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 15px #ffeee1;
 }
 .resume-details h3{
     font-size: 30px;
@@ -184,5 +185,16 @@ hr{
     font-weight: 500;
     margin-bottom: 5px;
 }
-.resume-details span{}
-.resume-details p{}
+.resume-details span{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.resume-details p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.resume-details hr{
+    margin: 20px 0;
+}
