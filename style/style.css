@@ -32,6 +32,7 @@ header{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 } 
+
 li{
     list-style: none;
 }
@@ -92,7 +93,7 @@ nav li{
     margin: 20px 20px 0 0;
 }
 .banner img{
-    width: 470px;
+    width: 500px;
 }
 
 /* About Me Section */
@@ -204,4 +205,42 @@ hr{
 }
 .resume button{
     margin: 50px 0;
+}
+footer{
+    background-color: #fff5ee;
+    padding: 50px 0;
+}
+.footer-content{
+    display: flex;
+    gap: 100px;
+}
+.footer-colamn h2{
+    margin-bottom: 20px;
+}
+.footer-colamn p{
+    font-size: 16px;
+    margin: 40px 0;
+}
+.footer-colamn img{
+    width: 30px;
+    margin-right: 20px;
+}
+.footer-colamn{
+    width: 50%;
+}
+footer input[type="text"], input[type="email"], textarea {
+    /* height: 40px; */
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    outline: none;
+    font-size: 18px;
+}
+.my-photo img{
+    margin: 50px 0;
+    width: 160px;
 }
