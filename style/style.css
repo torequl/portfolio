@@ -306,7 +306,7 @@ textarea {
 @media screen and (max-width: 480px) {
 
     .btn {
-        padding: 15px 20px;
+        padding: 10px 15px;
     }
 
     nav {
@@ -346,8 +346,8 @@ textarea {
     }
 
     .card {
-        border-top: 1px dashed #ffefef;
-        border-bottom: 1px dashed #ffefef;
+        border-top: 1px dashed #ffd8d8;
+        border-bottom: 1px dashed #ffd8d8;
         box-shadow: none;
     }
 
