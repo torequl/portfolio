@@ -330,6 +330,10 @@ textarea {
         gap: 30px;
     }
 
+    .banner-button button {
+        margin: 20px 10px 0 0;
+    }
+    
     .banner-container h1 {
         font-size: 50px;
     }
