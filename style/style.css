@@ -345,6 +345,12 @@ textarea {
         flex-direction: column;
     }
 
+    .card {
+        border-top: 1px dashed #ffefef;
+        border-bottom: 1px dashed #ffefef;
+        box-shadow: none;
+    }
+
     .about-content,
     .expartis-content,
     .expartis-content p,
